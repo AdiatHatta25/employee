@@ -1,0 +1,56 @@
+GET http://localhost:3000/employees
+
+###
+POST http://localhost:3000/employees
+Content-Type: application/json
+
+{
+    "name" : "Zanu",
+    "age" : 12,
+    "address" : "jl.odong-odong",
+    "transport" : "odong-odong",
+    "isMarried" : false
+
+}
+
+###
+PUT http://localhost:3000/employees/8
+Content-Type: application/json
+
+{
+    "name" : "Nurdin",
+    "age" : 17,
+    "address" : "Jl.Kebon Jati",
+    "transport" : "Super lamb",
+    "isMarried" : false
+}
+
+###
+GET http://localhost:3000/users
+
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "firstName" : "Nurdianto",
+    "lastName" : "Eko"
+
+}
+
+###
+PUT http://localhost:3000/users/8
+Content-Type: application/json
+
+{
+    "firstName" : "Azahra",
+    "lastName" : "Lala"
+}
+
+###
+DELETE http://localhost:3000/users/1
+
+
+
+
+
